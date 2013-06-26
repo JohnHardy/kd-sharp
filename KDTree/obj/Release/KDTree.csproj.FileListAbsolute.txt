@@ -1,0 +1,5 @@
+C:\Users\John\Documents\Visual Studio 2010\Projects\KDTree\KDTree\bin\Release\KDTree.dll
+C:\Users\John\Documents\Visual Studio 2010\Projects\KDTree\KDTree\bin\Release\KDTree.pdb
+C:\Users\John\Documents\Visual Studio 2010\Projects\KDTree\KDTree\obj\Release\ResolveAssemblyReference.cache
+C:\Users\John\Documents\Visual Studio 2010\Projects\KDTree\KDTree\obj\Release\KDTree.dll
+C:\Users\John\Documents\Visual Studio 2010\Projects\KDTree\KDTree\obj\Release\KDTree.pdb
