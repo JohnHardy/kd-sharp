@@ -1,0 +1,29 @@
+﻿<Window x:Class="KDVisuals.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KD Tree Sample" Height="438" Width="662">
+
+    <DockPanel LastChildFill="True">
+
+        
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0 0 0 5">
+            <Label Foreground="Gray">Find at least</Label>
+            <TextBox Name="txtFindMax" Width="50" TextAlignment="Center">100</TextBox>
+            <Label Foreground="Gray">points within</Label>
+            <TextBox Name="txtFindThreshold" Width="50" TextAlignment="Center" ToolTip="Negative threshold (-1) disables thresholding.">100</TextBox>
+            <Label Foreground="Gray">pixels on mouse move.</Label>
+        </StackPanel>
+
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+            <Label Foreground="Gray">Number of points:</Label>
+            <TextBox Name="txtPoints" Width="100">100</TextBox>
+            <Separator/>
+            <Button Width="100" Click="Button_Click">Randomise</Button>
+        </StackPanel>
+
+
+        <Canvas Name="cnvPoints" MouseMove="cnvPoints_MouseMove" Background="LightBlue">
+        </Canvas>
+            
+    </DockPanel>
+</Window>
